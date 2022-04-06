@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-7">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Product..."  [(ngModel)]="productName">
+      </div>
+    </div>
+    <div class="col-md-7">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of productArr | filter:productName">
+            <th scope="row">{{product.sno}}</th>
+            <td>{{product.name}}</td>
+            <td>{{product.price}}</td>
+            <td>
+              <span class="badge">{{product.availability}}</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

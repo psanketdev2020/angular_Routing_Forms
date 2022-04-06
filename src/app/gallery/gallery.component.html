@@ -1,0 +1,16 @@
+<section class="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-3" *ngFor="let item of galleryItem">
+        <a href="javascript:void(0);" routerLink={{item.id}} >
+          <div class="card p-0">
+            <img src="{{ item.imgUrl }}" alt="{{ item.imgUrl }}" />
+            <div class="card-body p-2">
+              <h4 class="font-weight-medium color-dark text-center">{{ item.title }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+*, *::before, *::after, *:focus { box-sizing: border-box; outline: none; margin: 0; padding: 0; } 
+html { font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 16px; } 
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; } 
+body { margin: 0; font-weight: 400; line-height: 1.5; color: #000000; text-align: left; background-color: #fff; } 
+[tabindex="-1"]:focus:not(:focus-visible), a:focus { outline: 0 !important; } 
+hr { box-sizing: content-box; height: 0; overflow: visible; } 
+h1, h2, h3, h4, h5, h6 { margin: 0; font: inherit } 
+h1, .h1 { font-size: 30px; } 
+h2, .h2 { font-size: 24px; } 
+h3, .h3 { font-size: 22px; } 
+h4, .h4 { font-size: 18px; } 
+h5, .h5 { font-size: 16px!important; } 
+h6, .h6 { font-size: 0.625rem; } 
+.font-weight-light { font-weight: 300 !important; } 
+.font-weight-normal { font-weight: 400 !important; } 
+.font-weight-medium { font-weight: 500 !important; } 
+.font-weight-bold { font-weight: 700 !important; } 
+.color-white { color: #FFF !important } 
+.color-black { color: #000; } 
+.color-dark { color: #0C0C0C; } 
+.color-dark-light { color: #151414; } 
+.light-gray { color: #A7A7A7; } 
+a { text-decoration: none !important; } 
+p { margin-top: 0; } 
+ol, ul, dl { margin-top: 0; } 
+ol ol, ul ul, ol ul, ul ol { margin-bottom: 0; } 
+li { list-style: none; } 
+.container-fluid { width: 95%; margin: 0 auto; } 
+input, textarea, select { border-radius: 0; -webkit-appearance: none; } 
+input[type=radio] { -webkit-appearance: auto; } 
+a, a:hover, .btn-link:hover { text-decoration: none; } 
+textarea { resize: none; } 
+.btn { vertical-align: unset; } 
+.btn-danger { border: 1px solid #A60D10!important; background-color: #fff; } 
+.btn-gradient { background: #A60D10; background: -moz-linear-gradient(0deg, #A60D10 -16.07%, #ED1C24 100%); background: -webkit-linear-gradient(0deg, #A60D10 -16.07%, #ED1C24 100%); background: linear-gradient(0deg, #A60D10 -16.07%, #ED1C24 100%); color: #fff; } 
+
+/* input  */
+input { border: 0; border-bottom: 1px solid #A7A7A7; font-family: inherit; -webkit-appearance: none; border-radius: 0; padding: 0; cursor: text; } 
+.field { display: flex; flex-flow: column-reverse; } 
+label, input, ::-webkit-input-placeholder { transition: all 0.2s; } 
+input:focus { outline: 0; border-bottom: 1px solid #666; } 
+label {color: #979797; margin: 0;} 
+::-webkit-input-placeholder { font-size: 14px; color: #979797;} 
+input:focus::-webkit-input-placeholder { opacity: 0; } 
+
+.card{ padding: 0 0 45px 0;}
+
+
+
+
